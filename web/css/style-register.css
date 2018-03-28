@@ -1,0 +1,153 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 19, 2016, 12:53:00 AM
+    Author     : Admin
+*/
+
+/* Slider
+-------------------------------------------------*/
+
+/* 
+-------------------------------------------------*/
+body{
+    background-image: url(../images/anhnen3.jpg);
+    background-repeat: repeat;
+    padding-top: 60px;
+}
+
+hr{
+    border-color: #0095da;
+    border-width: 2px;
+    max-width: 200px;
+}
+
+.navbar-default{
+    background-color: #F5F9EE;
+}
+/* Hover thẻ a.
+-------------------------------------------------*/
+a {
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.3s ease;
+    color: #0095da;
+    font-family: 'lato', Arial, sans-serif;
+    font-weight: 700;
+}
+a:hover {
+    text-shadow: 0px 0 15px #FF347F;
+}
+/* thẻ h.
+-------------------------------------------------*/
+h2{
+    font-family: 'Francois One', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+}
+h3{
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #0f5f5c;
+    
+}
+/* thẻ p.
+-------------------------------------------------*/
+p{
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #392F2F;
+    padding-top: 10px;
+}
+/* .
+-------------------------------------------------*/
+footer{
+    padding: 20px;
+}
+footer h3{
+    padding-bottom: 20px;
+    color: #0095da;
+}
+footer p{
+    padding: 8px;
+}
+/* CSS Logo
+-------------------------------------------------*/
+@-webkit-keyframes navbar-brand {
+0% { -webkit-transform: rotate(0deg) translate(2px, 1px); }
+10% { -webkit-transform: rotate(2deg) translate(1px, 2px); }
+20% { -webkit-transform: rotate(-2deg) translate(3px, 0px) ; }
+30% { -webkit-transform: rotate(0deg) translate(0px, -2px); }
+40% { -webkit-transform: rotate(-2deg) translate(-1px, 1px); }
+50% { -webkit-transform: rotate(2deg) translate(1px, -2px); }
+60% { -webkit-transform: rotate(0deg) translate(3px, -1px); }
+70% { -webkit-transform: rotate(2deg) translate(-2px, -1px); }
+80% { -webkit-transform: rotate(-2deg) translate(1px, 1px); }
+90% { -webkit-transform: rotate(0deg) translate(-2px, -2px); }
+100% { -webkit-transform: rotate(2deg) translate(-1px, 2px); }
+}
+@keyframes navbar-brand {
+0% { transform: rotate(0deg) translate(2px, 1px); }
+10% { transform: rotate(2deg) translate(1px, 2px); }
+20% { transform: rotate(-2deg) translate(3px, 0px) ; }
+30% { transform: rotate(0deg) translate(0px, -2px); }
+40% { transform: rotate(-2deg) translate(-1px, 1px); }
+50% { transform: rotate(2deg) translate(1px, -2px); }
+60% { transform: rotate(0deg) translate(3px, -1px); }
+70% { transform: rotate(2deg) translate(-2px, -1px); }
+80% { transform: rotate(-2deg) translate(1px, 1px); }
+90% { transform: rotate(0deg) translate(-2px, -2px); }
+100% { transform: rotate(2deg) translate(-1px, 2px); }
+}
+.navbar-brand img:hover {
+-webkit-animation-name: navbar-brand;
+-webkit-animation-duration: 1s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+animation-name: navbar-brand;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+/* CSS Images
+-------------------------------------------------*/
+.form-edit-user label{
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 5px;
+}
+.form-edit-user input {   
+    font-weight: 600;
+    font-size: 13px;
+    color:#D600B1;
+}
+.fullname-custom{
+    margin-top: 30px;
+}
+#boxshadow {
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: #F7FBFC;
+}
+#boxshadow::after {
+    content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    width: 70%;
+    left: 15%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 0;
+}
+

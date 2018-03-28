@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 18, 2016, 7:42:53 PM
+    Author     : Admin
+*/
+/* 
+body{
+    background-image: url(../images/anhnen.jpg);
+    background-color: yellow;
+    padding-top: 60px;
+}
+*/
+
+body{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*-------------------------------------------------*/
+.s1-custom h1{
+    font-family: 'Francois One', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    color: #C7FFFF;
+    padding-bottom: 10px;
+}
+.s1-custom p{
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #C7FFFF;
+}
+/*--Hover thẻ a*/
+a {
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.3s ease;
+    color: #FF347F;
+}
+a:hover {
+    text-shadow: 0px 0px 15px #FF347F;
+}
+/*-------------------------------------------------*/
+.s4-custom h3{
+    font-family: 'Francois One', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #C7FFFF;
+    padding-bottom: 10px;
+}
+.s4-custom h3{
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #C7FFFF;
+}
+/*-------------------------------------------------*/

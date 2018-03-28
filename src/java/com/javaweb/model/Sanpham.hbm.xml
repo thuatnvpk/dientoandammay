@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 28, 2016 8:20:18 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.javaweb.model.Sanpham" table="sanpham" catalog="db_qlsp" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="ten" type="string">
+            <column name="ten" length="45" not-null="true" />
+        </property>
+        <property name="chucnang" type="string">
+            <column name="chucnang" length="45" not-null="true" />
+        </property>
+        <property name="gia" type="double">
+            <column name="gia" precision="22" scale="0" not-null="true" />
+        </property>
+        <property name="ghichu" type="string">
+            <column name="ghichu" length="45" />
+        </property>
+        <property name="image" type="string">
+            <column name="image" length="500" />
+        </property>
+    </class>
+</hibernate-mapping>
